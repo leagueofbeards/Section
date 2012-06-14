@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Section</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<author url="http://leagueofbeards.com/">The League of Beards</author>
+	
+	<version>1.0</version>
+	<url>http://leagueofbeards.com/</url>
+	<description><![CDATA[Create Sections of your site, and bind content to them.]]></description>
+	<copyright>2012</copyright>	
+</pluggable>
