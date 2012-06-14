@@ -7,7 +7,7 @@ class Section extends Plugin
 				'parse_regex' => '%^blog(/page/(?P<page>\d+))?/?$%i',
 				'build_str' => 'blog(/page/{$page})', 
 				'handler' => 'UserThemeHandler', 
-				'action' => 'display_blog_entries', 
+				'action' => 'display_multiple', 
 				'priority' => 5, 
 				'description' => 'Return blog type entries.', 
 		);
@@ -17,7 +17,7 @@ class Section extends Plugin
 			'parse_regex'	=> '%^blog/(?P<slug>[^/]*)?/?$%i',
 			'build_str'		=> 'blog/{$slug}',
 			'handler'		=>	'UserThemeHandler',
-			'action'		=>	'display_single_blog',
+			'action'		=>	'display_single',
 			'priority'		=>	2,
 			'description'	=>	'Display a given blog entry',
 		);
