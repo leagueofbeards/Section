@@ -5,11 +5,11 @@ class Section extends Plugin
 	
 	public function filter_default_rewrite_rules( $rules ) {
 		$rules[] = array(
-				'name' => 'display_blog_multiple', 
+				'name' => 'display_multiple', 
 				'parse_regex' => '%^' . self::URL_SPACE . '(/page/(?P<page>\d+))?/?$%i',
 				'build_str' => self::URL_SPACE . '(/page/{$page})', 
 				'handler' => 'UserThemeHandler', 
-				'action' => 'display_blog_multiple', 
+				'action' => 'display_multiple', 
 				'priority' => 5, 
 				'description' => 'Create a section', 
 		);
