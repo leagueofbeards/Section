@@ -3,7 +3,7 @@
 	<name>Section</name>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<author url="http://leagueofbeards.com/">The League of Beards</author>
-	
+	<guid>13435965-5da5-4270-8032-f4c86465c617</guid>
 	<version>1.0</version>
 	<url>http://leagueofbeards.com/</url>
 	<description><![CDATA[Create Sections of your site, and bind content to them.]]></description>
